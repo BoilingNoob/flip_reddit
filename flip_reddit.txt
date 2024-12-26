@@ -1,0 +1,1 @@
+javascript: (() => {function flip_reddit() {let current_URL = window.location.href;let old_reddit = "old.reddit.com";let new_reddit = "www.reddit.com";let new_URL = ""; if (current_URL.includes(new_reddit)) {new_URL = current_URL.replace(new_reddit, old_reddit);} else {new_URL = current_URL.replace(old_reddit, new_reddit);}window.location.href = new_URL;}flip_reddit();})();
